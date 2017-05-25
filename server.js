@@ -6,11 +6,12 @@ var io = require('socket.io').listen(server);
 
 server.listen(8888);
 
-app.get('/', function(req, res) {
-    res.sendFile(__dirname + '/index.html');
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
-    app.use('/public', express.static(path.join(__dirname, 'public')))
+app.get('/', function(req, res) {
+    res.sendFile(__dirname + '/index.html');   
 });
+
 
 io.on('connection', function(socket) {
 	socket.emit('news', {
