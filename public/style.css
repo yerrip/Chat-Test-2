@@ -1,0 +1,180 @@
+	body {
+	margin: 0;
+    width:100%;
+    background-color: #c7c6c4;
+		}
+		
+		
+	nav {
+	height: 50px;
+	width: 100%;
+	background-color: #9b8fff;
+	position: relative;
+	float:left;
+	}
+	
+	/*contains the submit and textbox and whole chat */
+	
+	#chat {
+		position: absolute;
+		width:50%;
+		height: 700px;
+		background-color: #3c485e;
+		overflow: scroll;
+		top: 200px;
+ 		right: 0;
+ 		margin-right: 50px;
+ 		padding: 15px;
+	}
+
+/*contains the submit and textbox */
+	form {
+		position: relative;
+		background: #3c485e;
+		padding: 10px;
+		position: absolute;	body {
+	margin: 0;
+    width:100%;
+    background-color: #c7c6c4;
+		}
+		
+		
+	nav {
+	height: 50px;
+	width: 100%;
+	background-color: #9b8fff;
+	position: relative;
+	float:left;
+	}
+	
+	/*contains the submit and textbox and whole chat */
+	
+	#chat {
+		position: absolute;
+		width:50%;
+		height: 700px;
+		background-color: #3c485e;
+		overflow: scroll;
+		top: 200px;
+ 		right: 0;
+ 		margin-right: 50px;
+ 		padding: 15px;
+	}
+
+/*contains the submit and textbox */
+	form {
+		position: relative;
+		background: #fff;
+		padding: 10px;
+		position: absolute;
+		bottom: 0;
+		left:0;
+		width: 98%;
+		margin:0;
+		display: block;
+		margin: auto;
+		}
+      
+      /*messages outer box */
+      
+      #messages {
+      	list-style-type: none;
+      	width: 95%;
+      	margin: 10px;
+      	background-color: #3c485e;
+      	font: 13px Helvetica, Arial;
+      	padding: 10px;
+      	overflow: scroll;
+      	}
+      
+       /*list-even-messages */
+      #messages li {
+      	width: 90%;
+      	background-color: #f4f4f4;
+      	padding: 15px;
+      	display: block;
+    	margin: auto;
+    	margin: 10px;
+    	color: #3c485e;
+    	border-radius: 5px;
+      	}
+      
+      #messages li:nth-child(odd) {
+      background: #a7bbc3;
+      width: 90%;
+      display: block;
+    	margin: auto;
+    	border-radius: 5px;
+    	margin: 10px;
+    	color: #fff;
+      }
+
+		bottom: 0;
+		left:0;
+		width: 98%;
+		margin:0;
+		display: block;
+		margin: auto;
+		}
+    
+    /*submit button */
+    form input {
+    	position: relative;
+    	background-color: #a7bbc3;
+    	border: 0;
+    	padding: 10px;
+    	width: 25%;
+    	color: #fff;
+    	font-size: 12px;
+      	display: block;
+    	margin: auto;
+    	margin-top: 10px;
+    	}
+    	
+    	/*text-box */
+    	
+    	#submit {
+      	width: 95%;
+      	height: 25px;
+      	background-color: #f4f4f4;
+      	font: 13px Helvetica, Arial;
+      	color: #3c485e;
+      	display: block;
+    	margin: auto;
+      	}
+      
+      /*messages outer box */
+      
+      #messages {
+      	list-style-type: none;
+      	width: 95%;
+      	margin: 10px;
+      	background-color: #3c485e;
+      	font: 13px Helvetica, Arial;
+      	padding: 10px;
+      	overflow: scroll;
+      	}
+      
+       /*list-even-messages */
+      #messages li {
+      	width: 90%;
+      	background-color: #f4f4f4;
+      	padding: 15px;
+      	display: block;
+    	margin: auto;
+    	margin: 10px;
+    	color: #3c485e;
+    	border-radius: 5px;
+      	}
+      
+      #messages li:nth-child(odd) {
+      background: #a7bbc3;
+      width: 90%;
+      display: block;
+    	margin: auto;
+    	border-radius: 5px;
+    	margin: 10px;
+    	color: #fff;
+      }
+
+
